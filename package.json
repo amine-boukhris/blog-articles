@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "tinycolor2": "^1.6.0"
-  }
+  },
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "imageColor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amine-boukhris/blog-articles.git"
+  },
+  "author": "amine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amine-boukhris/blog-articles/issues"
+  },
+  "homepage": "https://github.com/amine-boukhris/blog-articles#readme",
+  "description": ""
 }
