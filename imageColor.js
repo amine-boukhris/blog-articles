@@ -1,5 +1,5 @@
 const articles = document.querySelectorAll(".article");
-
+// test git
 function getAverageColor(imgurl) {
     return new Promise((resolve, reject) => {
         const img = new Image();
