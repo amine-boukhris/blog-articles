@@ -13,6 +13,15 @@
             crossorigin="anonymous"
         />
 
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
         <link rel="stylesheet" href="style.css" />
 
         <script
@@ -44,12 +53,36 @@
                         <a href="#" class="active">Tech</a>
                     </div>
                     <div class="profile">
-                        <a href="https://github.com/amine-boukhris/blog-articles" target="_blank">
+                        <a
+                            href="https://github.com/amine-boukhris/blog-articles"
+                            target="_blank"
+                        >
                             <img src="img/profile-img.jpg" alt="Profile Icon" />
                         </a>
                     </div>
                 </nav>
+                <nav class="mobile-nav">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="1em"
+                        viewBox="0 0 448 512"
+                    >
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="1em"
+                        viewBox="0 0 512 512"
+                    >
+                        <path
+                            d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
+                        />
+                    </svg>
+                </nav>
             </header>
+            <hr />
             <main>
                 <h1>Tech.</h1>
                 <p>
@@ -129,7 +162,7 @@
             </p>
         </footer>
 
-        
         <script src="imageColor.js"></script>
+        <script src="mobileNav.js"></script>
     </body>
 </html>
