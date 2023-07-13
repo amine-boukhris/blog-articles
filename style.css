@@ -186,18 +186,42 @@ footer p {
     color: #475569;
 }
 
-.mobile-nav svg:last-child {
+.mobile-nav .svg2 {
     display: none;
+}
+
+.mobile-nav svg {
+    cursor: pointer;
 }
 
 .mobile-nav, hr {
     display: none;
 }
 
-.mobile-nav-div {
-    position: absolute;
-    inset: 0;
-    background-color: gray;
+
+.mobile-nav-links a {
+    display: block;
+    color: #94a3b8;
+    background-color: #f8eeec;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 14px;
+}
+
+.mobile-nav-links a.active {
+    color: #1e293b;
+}
+
+.mobile-nav-links.hidden {
+    display: none;
+}
+
+.mobile-nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin: 12px 0;
 }
 
 @media only screen and (max-width: 992px) {
